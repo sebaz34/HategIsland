@@ -1,0 +1,29 @@
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\appsettings.Development.json
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\appsettings.json
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\HategIsland - API.exe
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\HategIsland - API.deps.json
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\HategIsland - API.runtimeconfig.json
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\HategIsland - API.runtimeconfig.dev.json
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\HategIsland - API.dll
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\ref\HategIsland - API.dll
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\HategIsland - API.pdb
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\HategIsland - API.csproj.AssemblyReference.cache
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\HategIsland - API.GeneratedMSBuildEditorConfig.editorconfig
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\HategIsland - API.AssemblyInfoInputs.cache
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\HategIsland - API.AssemblyInfo.cs
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\HategIsland - API.csproj.CoreCompileInputs.cache
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\HategIsland - API.MvcApplicationPartsAssemblyInfo.cs
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\HategIsland - API.MvcApplicationPartsAssemblyInfo.cache
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\staticwebassets\HategIsland - API.StaticWebAssets.Manifest.cache
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\staticwebassets\HategIsland - API.StaticWebAssets.xml
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\scopedcss\bundle\HategIsland - API.styles.css
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\HategIsland - API.RazorTargetAssemblyInfo.cache
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\HategIsland - API.csproj.CopyComplete
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\HategIsland - API.dll
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\ref\HategIsland - API.dll
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\HategIsland - API.pdb
+A:\Github\Repositorys\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\HategIsland - API.genruntimeconfig.cache
