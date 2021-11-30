@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HategIsland___API.Migrations
 {
     [DbContext(typeof(HategIslandContext))]
-    [Migration("20211130050552_Testing DB Build")]
-    partial class TestingDBBuild
+    [Migration("20211130124614_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -18,12 +18,12 @@ namespace HategIsland___API.Models
         public string Diet { get; set; }
         public string Size { get; set; }
         public string Species { get; set; }
-        public int? Trait1 { get; set; }
-        public int? Trait2 { get; set; }
-        public int? Trait3 { get; set; }
-        public int? Ability1 { get; set; }
-        public int? Ability2 { get; set; }
-        public int? Ability3 { get; set; }
+        public int Trait1 { get; set; }
+        public int Trait2 { get; set; }
+        public int Trait3 { get; set; }
+        public int Ability1 { get; set; }
+        public int Ability2 { get; set; }
+        public int Ability3 { get; set; }
         public int Health { get; set; }
         public int Stamina { get; set; }
         public int Hunger { get; set; }

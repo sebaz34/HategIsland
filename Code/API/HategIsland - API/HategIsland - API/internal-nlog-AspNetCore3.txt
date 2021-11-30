@@ -133,3 +133,33 @@
 2021-11-30 15:06:02.5211 Info Validating config: TargetNames=basicMessage, detailMessage, ConfigItems=30, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
 2021-11-30 15:06:04.3862 Info AppDomain Shutting down. Logger closing...
 2021-11-30 15:06:04.4286 Info Logger has been shut down.
+2021-11-30 22:46:12.9149 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-11-30 22:46:12.9270 Info Loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-11-30 22:46:12.9446 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2021-11-30 22:46:12.9446 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll succeeded!
+2021-11-30 22:46:12.9446 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+2021-11-30 22:46:12.9446 Info Loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+2021-11-30 22:46:12.9446 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.14.0.2042. Product version: 4.14.0+18bbcdbd5bd13b4565c32d72e09502b7ca6c71d4. GlobalAssemblyCache: False
+2021-11-30 22:46:12.9446 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll succeeded!
+2021-11-30 22:46:12.9446 Info Message Template Auto Format enabled
+2021-11-30 22:46:12.9572 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-30 22:46:13.0041 Info Adding target FileTarget(Name=basicMessage)
+2021-11-30 22:46:13.0211 Info Adding target FileTarget(Name=detailMessage)
+2021-11-30 22:46:13.0479 Info Validating config: TargetNames=basicMessage, detailMessage, ConfigItems=30, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-11-30 22:46:14.9881 Info AppDomain Shutting down. Logger closing...
+2021-11-30 22:46:15.0045 Info Logger has been shut down.
+2021-11-30 22:46:31.9497 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-11-30 22:46:31.9497 Info Loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-11-30 22:46:31.9584 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2021-11-30 22:46:31.9584 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll succeeded!
+2021-11-30 22:46:31.9584 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+2021-11-30 22:46:31.9584 Info Loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+2021-11-30 22:46:31.9584 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.14.0.2042. Product version: 4.14.0+18bbcdbd5bd13b4565c32d72e09502b7ca6c71d4. GlobalAssemblyCache: False
+2021-11-30 22:46:31.9584 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll succeeded!
+2021-11-30 22:46:31.9584 Info Message Template Auto Format enabled
+2021-11-30 22:46:31.9584 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-30 22:46:31.9993 Info Adding target FileTarget(Name=basicMessage)
+2021-11-30 22:46:32.0110 Info Adding target FileTarget(Name=detailMessage)
+2021-11-30 22:46:32.0311 Info Validating config: TargetNames=basicMessage, detailMessage, ConfigItems=30, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-11-30 22:46:34.6033 Info AppDomain Shutting down. Logger closing...
+2021-11-30 22:46:34.6404 Info Logger has been shut down.
