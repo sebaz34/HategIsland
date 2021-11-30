@@ -1,0 +1,569 @@
+2021-11-30 14:57:31.0154 || DEBUG || Microsoft.EntityFrameworkCore.Infrastructure || An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-11-30 14:58:28.5950 || DEBUG || Microsoft.EntityFrameworkCore.Infrastructure || An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-11-30 14:58:29.1099 || WARN || Microsoft.EntityFrameworkCore.Model.Validation || Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2021-11-30 14:58:29.1230 || DEBUG || Microsoft.EntityFrameworkCore.Model.Validation || The property '"PlayerID"."Battle"' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-11-30 14:58:29.3115 || INFO || Microsoft.EntityFrameworkCore.Infrastructure || Entity Framework Core 5.0.12 initialized 'HategIslandContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled 
+2021-11-30 14:58:29.4768 || DEBUG || Microsoft.EntityFrameworkCore.ChangeTracking || DetectChanges starting for 'HategIslandContext'.
+2021-11-30 14:58:29.4797 || DEBUG || Microsoft.EntityFrameworkCore.ChangeTracking || DetectChanges completed for 'HategIslandContext'.
+2021-11-30 14:58:29.6676 || DEBUG || Microsoft.EntityFrameworkCore.Infrastructure || 'HategIslandContext' disposed.
+2021-11-30 14:59:11.1822 || DEBUG || Microsoft.EntityFrameworkCore.Infrastructure || An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-11-30 14:59:11.7723 || WARN || Microsoft.EntityFrameworkCore.Model.Validation || Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2021-11-30 14:59:11.7872 || DEBUG || Microsoft.EntityFrameworkCore.Model.Validation || The property '"PlayerID"."Battle"' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-11-30 14:59:11.9857 || INFO || Microsoft.EntityFrameworkCore.Infrastructure || Entity Framework Core 5.0.12 initialized 'HategIslandContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled 
+2021-11-30 14:59:12.0506 || DEBUG || Microsoft.EntityFrameworkCore.Migrations || Migrating using database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:12.0601 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opening connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:12.4330 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || An error occurred using the connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:12.4330 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opening connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:12.4330 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || An error occurred using the connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:12.4813 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opening connection to database 'master' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:12.5144 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opened connection to database 'master' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:12.5320 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 14:59:12.5475 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (12ms).
+2021-11-30 14:59:12.5652 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [HategIsland];
+2021-11-30 14:59:12.9484 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (391ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [HategIsland];
+2021-11-30 14:59:12.9484 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 14:59:12.9484 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 14:59:12.9484 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [HategIsland] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2021-11-30 14:59:13.1020 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (150ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [HategIsland] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2021-11-30 14:59:13.1052 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closing connection to database 'master' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.1052 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closed connection to database 'master' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.1240 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opening connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.1240 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opened connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.1240 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 14:59:13.1240 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 14:59:13.1359 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2021-11-30 14:59:13.1581 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2021-11-30 14:59:13.1581 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closing connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.1581 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closed connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.2990 || DEBUG || Microsoft.EntityFrameworkCore.ChangeTracking || DetectChanges starting for 'HategIslandContext'.
+2021-11-30 14:59:13.2990 || DEBUG || Microsoft.EntityFrameworkCore.ChangeTracking || DetectChanges completed for 'HategIslandContext'.
+2021-11-30 14:59:13.3087 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 14:59:13.3087 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 14:59:13.3087 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opening connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.3087 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opened connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.3087 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2021-11-30 14:59:13.3087 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2021-11-30 14:59:13.3087 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closing connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.3087 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closed connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.3232 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opening connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.3232 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opened connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.3232 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 14:59:13.3232 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 14:59:13.3232 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2021-11-30 14:59:13.3232 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2021-11-30 14:59:13.3232 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closing connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.3232 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closed connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.3232 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteScalar'.
+2021-11-30 14:59:13.3232 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteScalar' (0ms).
+2021-11-30 14:59:13.3232 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opening connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.3232 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opened connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.3232 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-11-30 14:59:13.3536 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-11-30 14:59:13.3540 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closing connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.3540 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closed connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.3540 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteReader'.
+2021-11-30 14:59:13.3540 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteReader' (0ms).
+2021-11-30 14:59:13.3540 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opening connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.3540 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opened connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.3540 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-11-30 14:59:13.3540 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-11-30 14:59:13.3540 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || A data reader was disposed.
+2021-11-30 14:59:13.3540 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closing connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.3540 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closed connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.3846 || INFO || Microsoft.EntityFrameworkCore.Migrations || Applying migration '20211130045829_Testing DB Build'.
+2021-11-30 14:59:13.4452 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opening connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.4452 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opened connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.4478 || DEBUG || Microsoft.EntityFrameworkCore.Database.Transaction || Beginning transaction with isolation level 'Unspecified'.
+2021-11-30 14:59:13.4478 || DEBUG || Microsoft.EntityFrameworkCore.Database.Transaction || Began transaction with isolation level 'ReadCommitted'.
+2021-11-30 14:59:13.4478 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 14:59:13.4478 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 14:59:13.4478 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Locations] (
+    [LocationID] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [BaseDuration] int NOT NULL,
+    [BaseReward] nvarchar(max) NULL,
+    CONSTRAINT [PK_Locations] PRIMARY KEY ([LocationID])
+);
+2021-11-30 14:59:13.4478 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Locations] (
+    [LocationID] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [BaseDuration] int NOT NULL,
+    [BaseReward] nvarchar(max) NULL,
+    CONSTRAINT [PK_Locations] PRIMARY KEY ([LocationID])
+);
+2021-11-30 14:59:13.4478 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 14:59:13.4635 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 14:59:13.4635 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [UserID] int NOT NULL IDENTITY,
+    [Username] nvarchar(max) NULL,
+    [Password] nvarchar(max) NULL,
+    [Email] nvarchar(max) NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([UserID])
+);
+2021-11-30 14:59:13.4635 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [UserID] int NOT NULL IDENTITY,
+    [Username] nvarchar(max) NULL,
+    [Password] nvarchar(max) NULL,
+    [Email] nvarchar(max) NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([UserID])
+);
+2021-11-30 14:59:13.4635 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 14:59:13.4635 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 14:59:13.4635 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Players] (
+    [PlayerID] int NOT NULL IDENTITY,
+    [UserID] int NOT NULL,
+    [PlayerName] nvarchar(max) NULL,
+    [UnlockedLocations] nvarchar(max) NULL,
+    CONSTRAINT [PK_Players] PRIMARY KEY ([PlayerID]),
+    CONSTRAINT [FK_Players_Users_UserID] FOREIGN KEY ([UserID]) REFERENCES [Users] ([UserID]) ON DELETE CASCADE
+);
+2021-11-30 14:59:13.4635 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Players] (
+    [PlayerID] int NOT NULL IDENTITY,
+    [UserID] int NOT NULL,
+    [PlayerName] nvarchar(max) NULL,
+    [UnlockedLocations] nvarchar(max) NULL,
+    CONSTRAINT [PK_Players] PRIMARY KEY ([PlayerID]),
+    CONSTRAINT [FK_Players_Users_UserID] FOREIGN KEY ([UserID]) REFERENCES [Users] ([UserID]) ON DELETE CASCADE
+);
+2021-11-30 14:59:13.4635 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 14:59:13.4635 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 14:59:13.4635 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Battles] (
+    [BattleID] int NOT NULL IDENTITY,
+    [InitiatingPlayerID] int NOT NULL,
+    [ReceivingPlayerID] int NOT NULL,
+    [CurrentPlayerTurn] int NOT NULL,
+    [InitiatingPlayerPack] nvarchar(max) NULL,
+    [ReceivingPlayerPack] nvarchar(max) NULL,
+    [Winner] int NULL,
+    [PlayerID] int NULL,
+    CONSTRAINT [PK_Battles] PRIMARY KEY ([BattleID]),
+    CONSTRAINT [FK_Battles_Players_PlayerID] FOREIGN KEY ([PlayerID]) REFERENCES [Players] ([PlayerID]) ON DELETE NO ACTION
+);
+2021-11-30 14:59:13.4635 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Battles] (
+    [BattleID] int NOT NULL IDENTITY,
+    [InitiatingPlayerID] int NOT NULL,
+    [ReceivingPlayerID] int NOT NULL,
+    [CurrentPlayerTurn] int NOT NULL,
+    [InitiatingPlayerPack] nvarchar(max) NULL,
+    [ReceivingPlayerPack] nvarchar(max) NULL,
+    [Winner] int NULL,
+    [PlayerID] int NULL,
+    CONSTRAINT [PK_Battles] PRIMARY KEY ([BattleID]),
+    CONSTRAINT [FK_Battles_Players_PlayerID] FOREIGN KEY ([PlayerID]) REFERENCES [Players] ([PlayerID]) ON DELETE NO ACTION
+);
+2021-11-30 14:59:13.4635 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 14:59:13.4635 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 14:59:13.4635 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Dinosaurs] (
+    [PackedDinosaurID] int NOT NULL IDENTITY,
+    [PlayerID] int NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Features] nvarchar(max) NULL,
+    [Traits] nvarchar(max) NULL,
+    [Abilities] nvarchar(max) NULL,
+    [Stats] nvarchar(max) NULL,
+    [Status] int NOT NULL,
+    CONSTRAINT [PK_Dinosaurs] PRIMARY KEY ([PackedDinosaurID]),
+    CONSTRAINT [FK_Dinosaurs_Players_PlayerID] FOREIGN KEY ([PlayerID]) REFERENCES [Players] ([PlayerID]) ON DELETE CASCADE
+);
+2021-11-30 14:59:13.4635 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Dinosaurs] (
+    [PackedDinosaurID] int NOT NULL IDENTITY,
+    [PlayerID] int NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Features] nvarchar(max) NULL,
+    [Traits] nvarchar(max) NULL,
+    [Abilities] nvarchar(max) NULL,
+    [Stats] nvarchar(max) NULL,
+    [Status] int NOT NULL,
+    CONSTRAINT [PK_Dinosaurs] PRIMARY KEY ([PackedDinosaurID]),
+    CONSTRAINT [FK_Dinosaurs_Players_PlayerID] FOREIGN KEY ([PlayerID]) REFERENCES [Players] ([PlayerID]) ON DELETE CASCADE
+);
+2021-11-30 14:59:13.4635 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 14:59:13.4635 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 14:59:13.4635 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Inventories] (
+    [InventoryID] int NOT NULL IDENTITY,
+    [PlayerID] int NOT NULL,
+    [Money] int NOT NULL,
+    [HerbFood] int NOT NULL,
+    [CarnFood] int NOT NULL,
+    [Medicine] int NOT NULL,
+    [Herb] int NOT NULL,
+    CONSTRAINT [PK_Inventories] PRIMARY KEY ([InventoryID]),
+    CONSTRAINT [FK_Inventories_Players_PlayerID] FOREIGN KEY ([PlayerID]) REFERENCES [Players] ([PlayerID]) ON DELETE CASCADE
+);
+2021-11-30 14:59:13.4635 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Inventories] (
+    [InventoryID] int NOT NULL IDENTITY,
+    [PlayerID] int NOT NULL,
+    [Money] int NOT NULL,
+    [HerbFood] int NOT NULL,
+    [CarnFood] int NOT NULL,
+    [Medicine] int NOT NULL,
+    [Herb] int NOT NULL,
+    CONSTRAINT [PK_Inventories] PRIMARY KEY ([InventoryID]),
+    CONSTRAINT [FK_Inventories_Players_PlayerID] FOREIGN KEY ([PlayerID]) REFERENCES [Players] ([PlayerID]) ON DELETE CASCADE
+);
+2021-11-30 14:59:13.4793 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 14:59:13.4793 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 14:59:13.4793 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [LocationVisits] (
+    [LocationVisitID] int NOT NULL IDENTITY,
+    [PlayerID] int NOT NULL,
+    [DinosaurID] int NOT NULL,
+    [LocationID] int NOT NULL,
+    [EndTime] datetime2 NOT NULL,
+    [CompletionReward] nvarchar(max) NULL,
+    CONSTRAINT [PK_LocationVisits] PRIMARY KEY ([LocationVisitID]),
+    CONSTRAINT [FK_LocationVisits_Dinosaurs_DinosaurID] FOREIGN KEY ([DinosaurID]) REFERENCES [Dinosaurs] ([PackedDinosaurID]) ON DELETE CASCADE,
+    CONSTRAINT [FK_LocationVisits_Locations_LocationID] FOREIGN KEY ([LocationID]) REFERENCES [Locations] ([LocationID]) ON DELETE CASCADE,
+    CONSTRAINT [FK_LocationVisits_Players_PlayerID] FOREIGN KEY ([PlayerID]) REFERENCES [Players] ([PlayerID]) ON DELETE CASCADE
+);
+2021-11-30 14:59:13.4793 || ERROR || Microsoft.EntityFrameworkCore.Database.Command || Failed executing DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [LocationVisits] (
+    [LocationVisitID] int NOT NULL IDENTITY,
+    [PlayerID] int NOT NULL,
+    [DinosaurID] int NOT NULL,
+    [LocationID] int NOT NULL,
+    [EndTime] datetime2 NOT NULL,
+    [CompletionReward] nvarchar(max) NULL,
+    CONSTRAINT [PK_LocationVisits] PRIMARY KEY ([LocationVisitID]),
+    CONSTRAINT [FK_LocationVisits_Dinosaurs_DinosaurID] FOREIGN KEY ([DinosaurID]) REFERENCES [Dinosaurs] ([PackedDinosaurID]) ON DELETE CASCADE,
+    CONSTRAINT [FK_LocationVisits_Locations_LocationID] FOREIGN KEY ([LocationID]) REFERENCES [Locations] ([LocationID]) ON DELETE CASCADE,
+    CONSTRAINT [FK_LocationVisits_Players_PlayerID] FOREIGN KEY ([PlayerID]) REFERENCES [Players] ([PlayerID]) ON DELETE CASCADE
+);
+2021-11-30 14:59:13.4793 || DEBUG || Microsoft.EntityFrameworkCore.Database.Transaction || Disposing transaction.
+2021-11-30 14:59:13.4951 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closing connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.4951 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closed connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 14:59:13.4951 || DEBUG || Microsoft.EntityFrameworkCore.Infrastructure || 'HategIslandContext' disposed.
+2021-11-30 15:05:51.9870 || DEBUG || Microsoft.EntityFrameworkCore.Infrastructure || An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-11-30 15:05:52.5272 || WARN || Microsoft.EntityFrameworkCore.Model.Validation || Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2021-11-30 15:05:52.5426 || DEBUG || Microsoft.EntityFrameworkCore.Model.Validation || The property '"PlayerID"."Battle"' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-11-30 15:05:52.7445 || INFO || Microsoft.EntityFrameworkCore.Infrastructure || Entity Framework Core 5.0.12 initialized 'HategIslandContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled 
+2021-11-30 15:05:52.8915 || DEBUG || Microsoft.EntityFrameworkCore.ChangeTracking || DetectChanges starting for 'HategIslandContext'.
+2021-11-30 15:05:52.8915 || DEBUG || Microsoft.EntityFrameworkCore.ChangeTracking || DetectChanges completed for 'HategIslandContext'.
+2021-11-30 15:05:53.0998 || DEBUG || Microsoft.EntityFrameworkCore.Infrastructure || 'HategIslandContext' disposed.
+2021-11-30 15:06:02.7409 || DEBUG || Microsoft.EntityFrameworkCore.Infrastructure || An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-11-30 15:06:03.3385 || WARN || Microsoft.EntityFrameworkCore.Model.Validation || Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2021-11-30 15:06:03.3536 || DEBUG || Microsoft.EntityFrameworkCore.Model.Validation || The property '"PlayerID"."Battle"' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-11-30 15:06:03.5614 || INFO || Microsoft.EntityFrameworkCore.Infrastructure || Entity Framework Core 5.0.12 initialized 'HategIslandContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled 
+2021-11-30 15:06:03.6093 || DEBUG || Microsoft.EntityFrameworkCore.Migrations || Migrating using database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:03.6093 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opening connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.0243 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opened connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.0458 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 15:06:04.0631 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (13ms).
+2021-11-30 15:06:04.0822 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2021-11-30 15:06:04.1132 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (42ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2021-11-30 15:06:04.1132 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closing connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1203 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closed connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1203 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteScalar'.
+2021-11-30 15:06:04.1203 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteScalar' (0ms).
+2021-11-30 15:06:04.1203 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opening connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1203 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opened connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1203 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-11-30 15:06:04.1420 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-11-30 15:06:04.1420 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closing connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1420 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closed connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1420 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opening connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1420 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opened connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1420 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 15:06:04.1420 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (1ms).
+2021-11-30 15:06:04.1420 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2021-11-30 15:06:04.1420 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2021-11-30 15:06:04.1420 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closing connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1420 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closed connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1420 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteScalar'.
+2021-11-30 15:06:04.1420 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteScalar' (0ms).
+2021-11-30 15:06:04.1420 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opening connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1506 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opened connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1506 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-11-30 15:06:04.1506 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-11-30 15:06:04.1506 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closing connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1506 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closed connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1687 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteReader'.
+2021-11-30 15:06:04.1687 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteReader' (0ms).
+2021-11-30 15:06:04.1687 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opening connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1687 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opened connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1687 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-11-30 15:06:04.1687 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-11-30 15:06:04.1687 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || A data reader was disposed.
+2021-11-30 15:06:04.1687 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closing connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1687 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closed connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.1858 || INFO || Microsoft.EntityFrameworkCore.Migrations || Applying migration '20211130050552_Testing DB Build'.
+2021-11-30 15:06:04.2361 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opening connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.2361 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Opened connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.2361 || DEBUG || Microsoft.EntityFrameworkCore.Database.Transaction || Beginning transaction with isolation level 'Unspecified'.
+2021-11-30 15:06:04.2445 || DEBUG || Microsoft.EntityFrameworkCore.Database.Transaction || Began transaction with isolation level 'ReadCommitted'.
+2021-11-30 15:06:04.2445 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 15:06:04.2445 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 15:06:04.2445 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Locations] (
+    [LocationID] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [BaseDuration] int NOT NULL,
+    [BaseReward] nvarchar(max) NULL,
+    CONSTRAINT [PK_Locations] PRIMARY KEY ([LocationID])
+);
+2021-11-30 15:06:04.2445 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Locations] (
+    [LocationID] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [BaseDuration] int NOT NULL,
+    [BaseReward] nvarchar(max) NULL,
+    CONSTRAINT [PK_Locations] PRIMARY KEY ([LocationID])
+);
+2021-11-30 15:06:04.2603 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 15:06:04.2603 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 15:06:04.2603 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [UserID] int NOT NULL IDENTITY,
+    [Username] nvarchar(max) NULL,
+    [Password] nvarchar(max) NULL,
+    [Email] nvarchar(max) NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([UserID])
+);
+2021-11-30 15:06:04.2603 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [UserID] int NOT NULL IDENTITY,
+    [Username] nvarchar(max) NULL,
+    [Password] nvarchar(max) NULL,
+    [Email] nvarchar(max) NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([UserID])
+);
+2021-11-30 15:06:04.2603 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 15:06:04.2603 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 15:06:04.2603 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Players] (
+    [PlayerID] int NOT NULL IDENTITY,
+    [UserID] int NOT NULL,
+    [PlayerName] nvarchar(max) NULL,
+    [UnlockedLocations] nvarchar(max) NULL,
+    CONSTRAINT [PK_Players] PRIMARY KEY ([PlayerID]),
+    CONSTRAINT [FK_Players_Users_UserID] FOREIGN KEY ([UserID]) REFERENCES [Users] ([UserID]) ON DELETE CASCADE
+);
+2021-11-30 15:06:04.2603 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Players] (
+    [PlayerID] int NOT NULL IDENTITY,
+    [UserID] int NOT NULL,
+    [PlayerName] nvarchar(max) NULL,
+    [UnlockedLocations] nvarchar(max) NULL,
+    CONSTRAINT [PK_Players] PRIMARY KEY ([PlayerID]),
+    CONSTRAINT [FK_Players_Users_UserID] FOREIGN KEY ([UserID]) REFERENCES [Users] ([UserID]) ON DELETE CASCADE
+);
+2021-11-30 15:06:04.2603 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 15:06:04.2603 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 15:06:04.2603 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Battles] (
+    [BattleID] int NOT NULL IDENTITY,
+    [InitiatingPlayerID] int NOT NULL,
+    [ReceivingPlayerID] int NOT NULL,
+    [CurrentPlayerTurn] int NOT NULL,
+    [InitiatingPlayerPack] nvarchar(max) NULL,
+    [ReceivingPlayerPack] nvarchar(max) NULL,
+    [Winner] int NULL,
+    [PlayerID] int NULL,
+    CONSTRAINT [PK_Battles] PRIMARY KEY ([BattleID]),
+    CONSTRAINT [FK_Battles_Players_PlayerID] FOREIGN KEY ([PlayerID]) REFERENCES [Players] ([PlayerID]) ON DELETE NO ACTION
+);
+2021-11-30 15:06:04.2809 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Battles] (
+    [BattleID] int NOT NULL IDENTITY,
+    [InitiatingPlayerID] int NOT NULL,
+    [ReceivingPlayerID] int NOT NULL,
+    [CurrentPlayerTurn] int NOT NULL,
+    [InitiatingPlayerPack] nvarchar(max) NULL,
+    [ReceivingPlayerPack] nvarchar(max) NULL,
+    [Winner] int NULL,
+    [PlayerID] int NULL,
+    CONSTRAINT [PK_Battles] PRIMARY KEY ([BattleID]),
+    CONSTRAINT [FK_Battles_Players_PlayerID] FOREIGN KEY ([PlayerID]) REFERENCES [Players] ([PlayerID]) ON DELETE NO ACTION
+);
+2021-11-30 15:06:04.2809 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 15:06:04.2809 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 15:06:04.2809 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Dinosaurs] (
+    [PackedDinosaurID] int NOT NULL IDENTITY,
+    [PlayerID] int NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Features] nvarchar(max) NULL,
+    [Traits] nvarchar(max) NULL,
+    [Abilities] nvarchar(max) NULL,
+    [Stats] nvarchar(max) NULL,
+    [Status] int NOT NULL,
+    CONSTRAINT [PK_Dinosaurs] PRIMARY KEY ([PackedDinosaurID]),
+    CONSTRAINT [FK_Dinosaurs_Players_PlayerID] FOREIGN KEY ([PlayerID]) REFERENCES [Players] ([PlayerID]) ON DELETE CASCADE
+);
+2021-11-30 15:06:04.2809 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Dinosaurs] (
+    [PackedDinosaurID] int NOT NULL IDENTITY,
+    [PlayerID] int NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Features] nvarchar(max) NULL,
+    [Traits] nvarchar(max) NULL,
+    [Abilities] nvarchar(max) NULL,
+    [Stats] nvarchar(max) NULL,
+    [Status] int NOT NULL,
+    CONSTRAINT [PK_Dinosaurs] PRIMARY KEY ([PackedDinosaurID]),
+    CONSTRAINT [FK_Dinosaurs_Players_PlayerID] FOREIGN KEY ([PlayerID]) REFERENCES [Players] ([PlayerID]) ON DELETE CASCADE
+);
+2021-11-30 15:06:04.2809 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 15:06:04.2809 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 15:06:04.2809 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Inventories] (
+    [InventoryID] int NOT NULL IDENTITY,
+    [PlayerID] int NOT NULL,
+    [Money] int NOT NULL,
+    [HerbFood] int NOT NULL,
+    [CarnFood] int NOT NULL,
+    [Medicine] int NOT NULL,
+    [Herb] int NOT NULL,
+    CONSTRAINT [PK_Inventories] PRIMARY KEY ([InventoryID]),
+    CONSTRAINT [FK_Inventories_Players_PlayerID] FOREIGN KEY ([PlayerID]) REFERENCES [Players] ([PlayerID]) ON DELETE CASCADE
+);
+2021-11-30 15:06:04.2945 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Inventories] (
+    [InventoryID] int NOT NULL IDENTITY,
+    [PlayerID] int NOT NULL,
+    [Money] int NOT NULL,
+    [HerbFood] int NOT NULL,
+    [CarnFood] int NOT NULL,
+    [Medicine] int NOT NULL,
+    [Herb] int NOT NULL,
+    CONSTRAINT [PK_Inventories] PRIMARY KEY ([InventoryID]),
+    CONSTRAINT [FK_Inventories_Players_PlayerID] FOREIGN KEY ([PlayerID]) REFERENCES [Players] ([PlayerID]) ON DELETE CASCADE
+);
+2021-11-30 15:06:04.2945 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 15:06:04.2945 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 15:06:04.2945 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [LocationVisits] (
+    [LocationVisitID] int NOT NULL IDENTITY,
+    [PlayerID] int NOT NULL,
+    [DinosaurID] int NOT NULL,
+    [LocationID] int NOT NULL,
+    [EndTime] datetime2 NOT NULL,
+    [CompletionReward] nvarchar(max) NULL,
+    CONSTRAINT [PK_LocationVisits] PRIMARY KEY ([LocationVisitID]),
+    CONSTRAINT [FK_LocationVisits_Locations_LocationID] FOREIGN KEY ([LocationID]) REFERENCES [Locations] ([LocationID]) ON DELETE CASCADE,
+    CONSTRAINT [FK_LocationVisits_Players_PlayerID] FOREIGN KEY ([PlayerID]) REFERENCES [Players] ([PlayerID]) ON DELETE CASCADE
+);
+2021-11-30 15:06:04.2945 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [LocationVisits] (
+    [LocationVisitID] int NOT NULL IDENTITY,
+    [PlayerID] int NOT NULL,
+    [DinosaurID] int NOT NULL,
+    [LocationID] int NOT NULL,
+    [EndTime] datetime2 NOT NULL,
+    [CompletionReward] nvarchar(max) NULL,
+    CONSTRAINT [PK_LocationVisits] PRIMARY KEY ([LocationVisitID]),
+    CONSTRAINT [FK_LocationVisits_Locations_LocationID] FOREIGN KEY ([LocationID]) REFERENCES [Locations] ([LocationID]) ON DELETE CASCADE,
+    CONSTRAINT [FK_LocationVisits_Players_PlayerID] FOREIGN KEY ([PlayerID]) REFERENCES [Players] ([PlayerID]) ON DELETE CASCADE
+);
+2021-11-30 15:06:04.2945 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 15:06:04.2945 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 15:06:04.2945 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Battles_PlayerID] ON [Battles] ([PlayerID]);
+2021-11-30 15:06:04.3074 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Battles_PlayerID] ON [Battles] ([PlayerID]);
+2021-11-30 15:06:04.3074 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 15:06:04.3074 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 15:06:04.3074 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Dinosaurs_PlayerID] ON [Dinosaurs] ([PlayerID]);
+2021-11-30 15:06:04.3074 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Dinosaurs_PlayerID] ON [Dinosaurs] ([PlayerID]);
+2021-11-30 15:06:04.3074 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 15:06:04.3074 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 15:06:04.3074 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Inventories_PlayerID] ON [Inventories] ([PlayerID]);
+2021-11-30 15:06:04.3074 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Inventories_PlayerID] ON [Inventories] ([PlayerID]);
+2021-11-30 15:06:04.3074 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 15:06:04.3074 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 15:06:04.3074 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_LocationVisits_LocationID] ON [LocationVisits] ([LocationID]);
+2021-11-30 15:06:04.3074 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_LocationVisits_LocationID] ON [LocationVisits] ([LocationID]);
+2021-11-30 15:06:04.3074 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 15:06:04.3074 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 15:06:04.3074 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_LocationVisits_PlayerID] ON [LocationVisits] ([PlayerID]);
+2021-11-30 15:06:04.3248 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_LocationVisits_PlayerID] ON [LocationVisits] ([PlayerID]);
+2021-11-30 15:06:04.3248 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 15:06:04.3248 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 15:06:04.3248 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Players_UserID] ON [Players] ([UserID]);
+2021-11-30 15:06:04.3248 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Players_UserID] ON [Players] ([UserID]);
+2021-11-30 15:06:04.3248 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Creating DbCommand for 'ExecuteNonQuery'.
+2021-11-30 15:06:04.3248 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Created DbCommand for 'ExecuteNonQuery' (0ms).
+2021-11-30 15:06:04.3248 || DEBUG || Microsoft.EntityFrameworkCore.Database.Command || Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20211130050552_Testing DB Build', N'5.0.12');
+2021-11-30 15:06:04.3248 || INFO || Microsoft.EntityFrameworkCore.Database.Command || Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20211130050552_Testing DB Build', N'5.0.12');
+2021-11-30 15:06:04.3397 || DEBUG || Microsoft.EntityFrameworkCore.Database.Transaction || Committing transaction.
+2021-11-30 15:06:04.3397 || DEBUG || Microsoft.EntityFrameworkCore.Database.Transaction || Committed transaction.
+2021-11-30 15:06:04.3397 || DEBUG || Microsoft.EntityFrameworkCore.Database.Transaction || Disposing transaction.
+2021-11-30 15:06:04.3397 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closing connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.3397 || DEBUG || Microsoft.EntityFrameworkCore.Database.Connection || Closed connection to database 'HategIsland' on server 'TIAMAT\SQLEXPRESS'.
+2021-11-30 15:06:04.3570 || DEBUG || Microsoft.EntityFrameworkCore.Infrastructure || 'HategIslandContext' disposed.

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "A:\\Github\\Repositorys\\HategIsland\\Code\\API\\HategIsland - API\\HategIsland - API\\HategIsland - API.csproj": {}
+    "D:\\GitHub\\HategIsland\\Code\\API\\HategIsland - API\\HategIsland - API\\HategIsland - API.csproj": {}
   },
   "projects": {
-    "A:\\Github\\Repositorys\\HategIsland\\Code\\API\\HategIsland - API\\HategIsland - API\\HategIsland - API.csproj": {
+    "D:\\GitHub\\HategIsland\\Code\\API\\HategIsland - API\\HategIsland - API\\HategIsland - API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Github\\Repositorys\\HategIsland\\Code\\API\\HategIsland - API\\HategIsland - API\\HategIsland - API.csproj",
+        "projectUniqueName": "D:\\GitHub\\HategIsland\\Code\\API\\HategIsland - API\\HategIsland - API\\HategIsland - API.csproj",
         "projectName": "HategIsland - API",
-        "projectPath": "A:\\Github\\Repositorys\\HategIsland\\Code\\API\\HategIsland - API\\HategIsland - API\\HategIsland - API.csproj",
-        "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
-        "outputPath": "A:\\Github\\Repositorys\\HategIsland\\Code\\API\\HategIsland - API\\HategIsland - API\\obj\\",
+        "projectPath": "D:\\GitHub\\HategIsland\\Code\\API\\HategIsland - API\\HategIsland - API\\HategIsland - API.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\HategIsland\\Code\\API\\HategIsland - API\\HategIsland - API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

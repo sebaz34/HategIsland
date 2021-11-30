@@ -1,7 +1,9 @@
+using HategIsland___API.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -31,6 +33,10 @@ namespace HategIsland___API
             NLog.LogManager.LoadConfiguration("nlog.config");
 
             services.AddControllers();
+
+            services.AddDbContext<HategIslandContext>(opts => opts.EnableSensitiveDataLogging()
+            .UseLoggerFactory(MyLoggerFactory).
+            UseSqlServer(Configuration.GetConnectionString("Laptop")));
 
             services.AddMvc().AddNewtonsoftJson(d => d.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
