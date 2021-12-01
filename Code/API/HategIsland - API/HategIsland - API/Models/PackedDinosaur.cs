@@ -15,6 +15,7 @@ namespace HategIsland___API.Models
     {
         public int PackedDinosaurID { get; set; }
         public int PlayerID { get; set; }
+        public int DinosaurSpeciesID { get; set; }
         public string Name { get; set; }
         /*Features are the minified values of:
          * AOH, Diet, Size, Species */
@@ -35,5 +36,6 @@ namespace HategIsland___API.Models
 
         //Navigation Properties
         public Player Player { get; set; }
+        public DinosaurSpecies DinosaurSpecies { get; set; }
     }
 }
