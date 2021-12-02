@@ -568,7 +568,6 @@ namespace HategIsland___API.Models
                     UserID = 1,
                     Username = "tester",
                     Password = "tester",
-                    Email = "tester"
                 });
 
             builder.Entity<Player>().HasData(

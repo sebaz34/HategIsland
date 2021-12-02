@@ -18,8 +18,6 @@ namespace HategIsland___API.Models
         public string Username { get; set; }
         //Password is a hashed value
         public string Password { get; set; }
-        //Email is an encrypted value
-        public string Email { get; set; }
 
         //Navigation Properties
         public Player Player { get; set; }
