@@ -1,12 +1,12 @@
 ﻿using HategIsland___API.Models;
 using HategIsland___API.Tools;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace HategIsland___API.Controllers
 {
@@ -24,14 +24,13 @@ namespace HategIsland___API.Controllers
             _logger = logger;
         }
 
-        //TODO: Apply Authentication to Entire Controller
-
         /// <summary>
         /// This method is used to create a new dinosaur.
         /// Random values are used to determine the dinosaurs aspects.
         /// </summary>
         /// <param name="PlayerID"></param>
         /// <returns>Unpacked Dinosaur</returns>
+        [Authorize]
         [HttpGet("NewRandom/{PlayerID}")]
         public ActionResult NewRandomDinosaur(int PlayerID)
         {
@@ -87,6 +86,7 @@ namespace HategIsland___API.Controllers
                 DBDino.DinosaurSpeciesID = randSpecies.DinosaurSpeciesID;
                 _context.Dinosaurs.Add(DBDino);
                 _context.SaveChanges();
+                newDino.DinosaurID = DBDino.PackedDinosaurID;
 
                 //Log New Dinosaur Creation
                 _logger.LogInformation($"New Dinosaur Created! ID: {newDino.DinosaurID}, PlayerID: {newDino.PlayerID}, Dinosaur Species: {newDino.Species}");
@@ -106,6 +106,7 @@ namespace HategIsland___API.Controllers
         /// </summary>
         /// <param name="DinoID"></param>
         /// <returns>Unpacked Dinosaur</returns>
+        [Authorize]
         [HttpGet("{DinoID}")]
         public ActionResult GetDinoFromDB(int DinoID)
         {
@@ -130,6 +131,7 @@ namespace HategIsland___API.Controllers
         /// </summary>
         /// <param name="PlayerID"></param>
         /// <returns>IEnumerable of type UnpackedDinosaur</returns>
+        [Authorize]
         [HttpGet("AllDinos/{PlayerID}")]
         public IEnumerable<UnpackedDinosaur> GetAllPlayersDinos(int PlayerID)
         {
@@ -139,7 +141,8 @@ namespace HategIsland___API.Controllers
                 List<UnpackedDinosaur> returnList = new List<UnpackedDinosaur>();
                 foreach (PackedDinosaur dinosaur in packedDinos)
                 {
-                    returnList.Append(dp.UnpackDinosaur(dinosaur));
+                    UnpackedDinosaur appendDinosaur = dp.UnpackDinosaur(dinosaur);
+                    returnList.Add(appendDinosaur);
                 }
 
                 return returnList;
@@ -157,6 +160,7 @@ namespace HategIsland___API.Controllers
         /// </summary>
         /// <param name="inputDino"></param>
         /// <returns>Unpacked Dinosaur</returns>
+        [Authorize]
         [HttpPost("UpdateDino/{id}")]
         public ActionResult UpdateDinoValue([FromBody] UnpackedDinosaur inputDino)
         {
@@ -176,12 +180,12 @@ namespace HategIsland___API.Controllers
             }
         }
 
-        //TODO: Apply Authorisation
         /// <summary>
         /// This method is used to remove a dinosaur from the DB permenatley.
         /// </summary>
         /// <param name="DinoID"></param>
         /// <returns>None</returns>
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{DinoID}")]
         public ActionResult DeleteDinosaur(int DinoID)
         {

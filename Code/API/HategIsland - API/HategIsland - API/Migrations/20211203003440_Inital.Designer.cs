@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HategIsland___API.Migrations
 {
     [DbContext(typeof(HategIslandContext))]
-    [Migration("20211201012239_Inital")]
+    [Migration("20211203003440_Inital")]
     partial class Inital
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -679,12 +679,190 @@ namespace HategIsland___API.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("IndustryType")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UnlockCost")
+                        .HasColumnType("int");
 
                     b.HasKey("LocationID");
 
                     b.ToTable("Locations");
+
+                    b.HasData(
+                        new
+                        {
+                            LocationID = 1,
+                            BaseDuration = 0,
+                            BaseReward = "",
+                            Description = "The birthplace of all your dinosaurs. This building houses all collected eggs and keeps them in optimum conditions until the little dinosaur inside is ready to join the world!",
+                            IndustryType = "Base",
+                            Name = "Hatchery",
+                            UnlockCost = 0
+                        },
+                        new
+                        {
+                            LocationID = 2,
+                            BaseDuration = 0,
+                            BaseReward = "",
+                            Description = "Wide open spaces, vast aveires, and deep lagoons. This is where your dinosaurs call home on Hateg Island, and there is plenty of fencing to ensure we keep the carnivores and herbivores separate.",
+                            IndustryType = "Base",
+                            Name = "Paddocks",
+                            UnlockCost = 0
+                        },
+                        new
+                        {
+                            LocationID = 3,
+                            BaseDuration = 0,
+                            BaseReward = "",
+                            Description = "Here you can send dinosaurs to battle against practice dummies and to increase their work ethic to help them at their jobs. By sending a dinosaur here you are helping it to become a better member of the Hateg Community by leveling up.",
+                            IndustryType = "Base",
+                            Name = "Training Arena",
+                            UnlockCost = 0
+                        },
+                        new
+                        {
+                            LocationID = 4,
+                            BaseDuration = 5,
+                            BaseReward = "Herb#100#Money#300",
+                            Description = "Dinosaurs spent millions of years helping the pre-historic forests regulate themselves by bringing trees down. Today, with the help of modern technology, we can utilise their unique abilities to assist us in cutting, hauling, and processing the timber to build or export.",
+                            IndustryType = "Forestry",
+                            Name = "Logging Camp",
+                            UnlockCost = 1000
+                        },
+                        new
+                        {
+                            LocationID = 5,
+                            BaseDuration = 5,
+                            BaseReward = "Herb#150#Money#300",
+                            Description = "Dinosaurs eat a lot and as a result all of that food needs to go somewhere once the dinosaur is done with it. By incorporating the proper seeds into their diet and letting them roam free, we have found that planting and nursing time for new forest areas is reduced dramatically.",
+                            IndustryType = "Forestry",
+                            Name = "Forestry Camp",
+                            UnlockCost = 1250
+                        },
+                        new
+                        {
+                            LocationID = 6,
+                            BaseDuration = 5,
+                            BaseReward = "HerbFood#100#CarnFood#100",
+                            Description = "Dinosaurs are innate at seeking out food and this is no different in the water. Using their fantastic eyesight and strength we can use them to spot fish and seaweed as well as help us haul it in.",
+                            IndustryType = "Fishery",
+                            Name = "Fishing Warf",
+                            UnlockCost = 500
+                        },
+                        new
+                        {
+                            LocationID = 7,
+                            BaseDuration = 15,
+                            BaseReward = "HerbFood#500#CarnFood#500",
+                            Description = "Why wait for the fish and seaweed to come to us, when we can go to them? AND bring the dinosaurs with us too! We've built a big platform about 3km off the coast of Hateg and we need some dinosaurs to help us find and haul the giant fish and seaweed loads.",
+                            IndustryType = "Fishery",
+                            Name = "Fishing Platform",
+                            UnlockCost = 2500
+                        },
+                        new
+                        {
+                            LocationID = 8,
+                            BaseDuration = 5,
+                            BaseReward = "HerbFood#100#Money#150",
+                            Description = "Humans have spent the last century inventing technologies to help us plant, grow, and harvest food more efficently. Well now we have creatures that have all the abilities of our technologies and can be trained not to drive into a ditch. Dinosaurs!",
+                            IndustryType = "Agriculture",
+                            Name = "Farming District",
+                            UnlockCost = 500
+                        },
+                        new
+                        {
+                            LocationID = 9,
+                            BaseDuration = 15,
+                            BaseReward = "HerbFood#500#Money#300",
+                            Description = "You've heard of the Paleo Diet right? Well turns out herbivore dinosaurs actually prefer the Paleo Diet! Humans like it, Dinosaurs like it, lets grow it!",
+                            IndustryType = "Agriculture",
+                            Name = "Paleo Farms",
+                            UnlockCost = 2500
+                        },
+                        new
+                        {
+                            LocationID = 10,
+                            BaseDuration = 5,
+                            BaseReward = "CarnFood#100#Money#150",
+                            Description = "Dinosaurs are surprisingly good at convincing other animals to walk in the opposite direction, who knew?! By using them in conjuction with livestock, we can increase our production of meat and animal products drastically!",
+                            IndustryType = "Production",
+                            Name = "Animal Husbandry District",
+                            UnlockCost = 500
+                        },
+                        new
+                        {
+                            LocationID = 11,
+                            BaseDuration = 15,
+                            BaseReward = "CarnFood#500#Money#300",
+                            Description = "Our lawyers would like us to read the following statement: \"Any dinosaurs leased to the Abattoir for labour purposes will be used in the production of any food products.\" Why use silly human means of producing meat when you can get dinosaurs to do it for you on a much larger scale?! Your dinosaur will be used to help create meat products and not themselves be made into meat products.",
+                            IndustryType = "Production",
+                            Name = "Abattoir",
+                            UnlockCost = 2500
+                        },
+                        new
+                        {
+                            LocationID = 12,
+                            BaseDuration = 5,
+                            BaseReward = "Money#750",
+                            Description = "We have a lot of industries all over the island and we need some way of moving them. Now we could use traditonal trucks or trains, but we have access to creatures that can be motivated to carry things and are intelligent enough to actually get from A to B. So, will that be air, land, or sea mail?",
+                            IndustryType = "Distribution",
+                            Name = "Postal Office",
+                            UnlockCost = 4000
+                        },
+                        new
+                        {
+                            LocationID = 13,
+                            BaseDuration = 20,
+                            BaseReward = "Money#4000",
+                            Description = "As Hateg gets bigger, a lot of our citizens want access to the resources other colonys are producing. We need some way of distributing all of the incoming goods around the island. It seems as usual, dinosaurs are the solution.",
+                            IndustryType = "Distribution",
+                            Name = "Customs Depot",
+                            UnlockCost = 8000
+                        },
+                        new
+                        {
+                            LocationID = 14,
+                            BaseDuration = 30,
+                            BaseReward = "Money#6000",
+                            Description = "Wow, we are sure getting a lot of people wanting to visit our island to see all the dinosaurs! Wouldn’t it be great if they had something else to do on the island though? An attraction where we could showcase a dinosaur or two!",
+                            IndustryType = "Tourism",
+                            Name = "Fair Ground",
+                            UnlockCost = 10000
+                        },
+                        new
+                        {
+                            LocationID = 15,
+                            BaseDuration = 45,
+                            BaseReward = "Money#8000",
+                            Description = "So, some billionare asked us if he could have a 5 star dinner on the island, we said we didn’t have anything like that. He said that he would heavily compensate building one and setting it up as long as he didn’t have to pay for staff. If only we had some creatures that could be trained to buss tables and take orders... Dinosaurs!",
+                            IndustryType = "Tourism",
+                            Name = "5 Star Restauraunt",
+                            UnlockCost = 15000
+                        },
+                        new
+                        {
+                            LocationID = 16,
+                            BaseDuration = 20,
+                            BaseReward = "Herb#100",
+                            Description = "Dinosaurs are remarkably good at diagnosis. They can cause…. *ahem* diagnose a wide range of bodily injuries. The local doctors clinic is the best place for them!",
+                            IndustryType = "Healthcare",
+                            Name = "Doctors Clinic",
+                            UnlockCost = 4000
+                        },
+                        new
+                        {
+                            LocationID = 17,
+                            BaseDuration = 20,
+                            BaseReward = "",
+                            Description = "Sometimes dinosaurs just cant walk it off and they need some urgent medical care from the best. That’s why we have our Dino Hospital with the best Paleo-Physicians on the island at the ready.",
+                            IndustryType = "Healthcare",
+                            Name = "Dino Hospital",
+                            UnlockCost = 6000
+                        });
                 });
 
             modelBuilder.Entity("HategIsland___API.Models.LocationVisit", b =>
@@ -786,7 +964,7 @@ namespace HategIsland___API.Migrations
                         {
                             PlayerID = 1,
                             PlayerName = "DinoFan1",
-                            UnlockedLocations = "1",
+                            UnlockedLocations = "1#2#3",
                             UserID = 1
                         });
                 });
@@ -798,10 +976,10 @@ namespace HategIsland___API.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Email")
+                    b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Password")
+                    b.Property<string>("Roles")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Username")
@@ -815,9 +993,9 @@ namespace HategIsland___API.Migrations
                         new
                         {
                             UserID = 1,
-                            Email = "tester",
-                            Password = "tester",
-                            Username = "tester"
+                            Password = "$2b$10$M7U88LiQcylRnjbNx92SVuhuwpxjigDWXcTYuLBzRPdg78Mq/spNK",
+                            Roles = "User, Admin",
+                            Username = "Seb"
                         });
                 });
 

@@ -15,13 +15,14 @@ namespace HategIsland___API.Models
     {
         public int LocationID { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
+        public string IndustryType { get; set; }
+        public int UnlockCost { get; set; }
         public int BaseDuration { get; set; }
-
         /* Locations can offer multiple rewards,
          * Rewards will always be formatted as such:
-         * "amount, reward type" */
+         * "Reward Type#Amount#" */
         public string BaseReward { get; set; }
+        public string Description { get; set; }
 
         //Navigation Properties
         public ICollection<LocationVisit> LocationVisits { get; set; }

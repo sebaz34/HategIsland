@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YZJ+u481CoPf5gtwM4pXqwdv/TxwIsmkIOOHEsjTeOsrpRNfFvADCn4ZuJ/UjqmFI+2kAI3Pll0+s7yzEF/MEw==",
+  "dgSpecHash": "FdQ0jmBnxHdgcgRjZQCprVmPiM+6IRgUYjOrpmXs5JZSh5SjD+iqUKpTOPiRXfeqsgE+k1nhN+syZbaEcmSM+g==",
   "success": true,
   "projectFilePath": "D:\\GitHub\\HategIsland\\Code\\API\\HategIsland - API\\HategIsland - API\\HategIsland - API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sebas\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.12\\microsoft.aspnetcore.authentication.jwtbearer.5.0.12.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.12\\microsoft.aspnetcore.jsonpatch.5.0.12.nupkg.sha512",

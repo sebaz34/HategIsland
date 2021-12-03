@@ -1,12 +1,10 @@
 ﻿using HategIsland___API.Models;
 using HategIsland___API.Tools;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace HategIsland___API.Controllers
 {
@@ -24,14 +22,13 @@ namespace HategIsland___API.Controllers
             _logger = logger;
         }
 
-        //TODO: Apply Authentication to Entire Controller
-
         /// <summary>
         /// Creates a new Player entry and new Inventory in the DB.
         /// </summary>
         /// <param name="UserID"></param>
         /// <param name="PlayerName"></param>
         /// <returns>Player</returns>
+        [Authorize]
         [HttpPost("New/{UserID}/{PlayerName}")]
         public ActionResult AddNewPlayer(int UserID, string PlayerName)
         {
@@ -75,6 +72,7 @@ namespace HategIsland___API.Controllers
         /// </summary>
         /// <param name="inputPlayer"></param>
         /// <returns>Player</returns>
+        [Authorize]
         [HttpPost("{id}")]
         public ActionResult UpdatePlayerDetails([FromBody] Player inputPlayer)
         {
@@ -96,6 +94,7 @@ namespace HategIsland___API.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns>Player</returns>
+        [Authorize]
         [HttpGet("{id}")]
         public ActionResult GetPlayerDetails(int id)
         {
@@ -115,6 +114,7 @@ namespace HategIsland___API.Controllers
         /// </summary>
         /// <param name="inputInventory"></param>
         /// <returns>Inventory</returns>
+        [Authorize]
         [HttpPost("Inventory/{id}")]
         public ActionResult UpdateInventoryDetails([FromBody] Inventory inputInventory)
         {
@@ -137,6 +137,7 @@ namespace HategIsland___API.Controllers
         /// </summary>
         /// <param name="PlayerID"></param>
         /// <returns>Inventory</returns>
+        [Authorize]
         [HttpGet("Inventory/{PlayerID}")]
         public ActionResult GetInventoryDetails(int PlayerID)
         {
@@ -151,13 +152,12 @@ namespace HategIsland___API.Controllers
             }
         }
 
-        //TODO: Apply Authorisation
-
         /// <summary>
         /// Removes a player and inventory from the DB that belong to inputted PlayerID.
         /// </summary>
         /// <param name="PlayerID"></param>
         /// <returns>None</returns>
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{PlayerID}")]
         public ActionResult DeletePlayer(int PlayerID)
         {

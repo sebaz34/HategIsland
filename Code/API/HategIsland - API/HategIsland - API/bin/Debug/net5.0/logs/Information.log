@@ -1,0 +1,32 @@
+2021-12-03 11:40:21.6093 || Application started. Press Ctrl+C to shut down.
+2021-12-03 11:40:21.6270 || Hosting environment: Development
+2021-12-03 11:40:21.6301 || Content root path: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API
+2021-12-03 11:40:36.5586 || Entity Framework Core 5.0.12 initialized 'HategIslandContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled 
+2021-12-03 11:40:36.9807 || Executed DbCommand (25ms) [Parameters=[@__p_0='25'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [d].[DinosaurSpeciesID], [d].[AOH], [d].[BaseHealth], [d].[BaseHunger], [d].[BaseStamina], [d].[BaseThirst], [d].[Diet], [d].[HistoricalBlurb], [d].[Size], [d].[Species]
+FROM [DinosaurSpecies] AS [d]
+WHERE [d].[DinosaurSpeciesID] = @__p_0
+2021-12-03 11:40:37.1199 || Executed DbCommand (2ms) [Parameters=[@p0='4#0#0' (Size = 4000), @p1='25', @p2='Land#Carnivore#Medium#Ozraptor' (Size = 4000), @p3='Baby Ozraptor' (Size = 4000), @p4='2', @p5='77#32#100#100#1' (Size = 4000), @p6='0', @p7='46#0#0' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Dinosaurs] ([Abilities], [DinosaurSpeciesID], [Features], [Name], [PlayerID], [Stats], [Status], [Traits])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [PackedDinosaurID]
+FROM [Dinosaurs]
+WHERE @@ROWCOUNT = 1 AND [PackedDinosaurID] = scope_identity();
+2021-12-03 11:40:37.1415 || New Dinosaur Created! ID: 3, PlayerID: 2, Dinosaur Species: Ozraptor
+2021-12-03 11:45:31.4883 || Application started. Press Ctrl+C to shut down.
+2021-12-03 11:45:31.4883 || Hosting environment: Development
+2021-12-03 11:45:31.5029 || Content root path: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API
+2021-12-03 11:45:33.9329 || Entity Framework Core 5.0.12 initialized 'HategIslandContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled 
+2021-12-03 11:45:34.3384 || Executed DbCommand (25ms) [Parameters=[@__p_0='29'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [d].[DinosaurSpeciesID], [d].[AOH], [d].[BaseHealth], [d].[BaseHunger], [d].[BaseStamina], [d].[BaseThirst], [d].[Diet], [d].[HistoricalBlurb], [d].[Size], [d].[Species]
+FROM [DinosaurSpecies] AS [d]
+WHERE [d].[DinosaurSpeciesID] = @__p_0
+2021-12-03 11:45:34.4715 || Executed DbCommand (2ms) [Parameters=[@p0='7#0#0' (Size = 4000), @p1='29', @p2='Land#Herbivore#Large#Brachiosaurus' (Size = 4000), @p3='Baby Brachiosaurus' (Size = 4000), @p4='2', @p5='90#20#100#100#1' (Size = 4000), @p6='0', @p7='10#0#0' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Dinosaurs] ([Abilities], [DinosaurSpeciesID], [Features], [Name], [PlayerID], [Stats], [Status], [Traits])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT [PackedDinosaurID]
+FROM [Dinosaurs]
+WHERE @@ROWCOUNT = 1 AND [PackedDinosaurID] = scope_identity();
+2021-12-03 11:45:34.4923 || New Dinosaur Created! ID: 4, PlayerID: 2, Dinosaur Species: Brachiosaurus

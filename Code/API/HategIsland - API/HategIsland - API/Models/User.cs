@@ -18,6 +18,8 @@ namespace HategIsland___API.Models
         public string Username { get; set; }
         //Password is a hashed value
         public string Password { get; set; }
+        //Roles will be deliminated by the ',' character
+        public string Roles { get; set; }
 
         //Navigation Properties
         public Player Player { get; set; }

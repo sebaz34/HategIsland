@@ -534,3 +534,277 @@
 2021-12-02 14:14:04.4564 Info Adding target FileTarget(Name=Information)
 2021-12-02 14:14:04.4601 Info Closing old configuration.
 2021-12-02 14:14:04.5253 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 10:00:40.7705 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-12-03 10:00:40.7705 Info Loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-12-03 10:00:40.7705 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2021-12-03 10:00:40.7705 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll succeeded!
+2021-12-03 10:00:40.7705 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+2021-12-03 10:00:40.7705 Info Loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+2021-12-03 10:00:40.7834 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.14.0.2042. Product version: 4.14.0+18bbcdbd5bd13b4565c32d72e09502b7ca6c71d4. GlobalAssemblyCache: False
+2021-12-03 10:00:40.7834 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll succeeded!
+2021-12-03 10:00:40.7834 Info Message Template Auto Format enabled
+2021-12-03 10:00:40.7834 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 10:00:40.8402 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 10:00:40.8582 Info Adding target FileTarget(Name=Warning)
+2021-12-03 10:00:40.8582 Info Adding target FileTarget(Name=Information)
+2021-12-03 10:00:40.8926 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 10:00:42.4512 Info AppDomain Shutting down. Logger closing...
+2021-12-03 10:00:42.4651 Info Logger has been shut down.
+2021-12-03 10:00:51.1074 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-12-03 10:00:51.1074 Info Loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-12-03 10:00:51.1158 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2021-12-03 10:00:51.1158 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll succeeded!
+2021-12-03 10:00:51.1158 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+2021-12-03 10:00:51.1158 Info Loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+2021-12-03 10:00:51.1158 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.14.0.2042. Product version: 4.14.0+18bbcdbd5bd13b4565c32d72e09502b7ca6c71d4. GlobalAssemblyCache: False
+2021-12-03 10:00:51.1158 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll succeeded!
+2021-12-03 10:00:51.1158 Info Message Template Auto Format enabled
+2021-12-03 10:00:51.1158 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 10:00:51.1596 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 10:00:51.1794 Info Adding target FileTarget(Name=Warning)
+2021-12-03 10:00:51.1794 Info Adding target FileTarget(Name=Information)
+2021-12-03 10:00:51.2076 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 10:00:53.9057 Info AppDomain Shutting down. Logger closing...
+2021-12-03 10:00:53.9218 Info Logger has been shut down.
+2021-12-03 10:34:38.3460 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-12-03 10:34:38.3460 Info Loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-12-03 10:34:38.3460 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2021-12-03 10:34:38.3460 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll succeeded!
+2021-12-03 10:34:38.3460 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+2021-12-03 10:34:38.3460 Info Loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+2021-12-03 10:34:38.3460 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.14.0.2042. Product version: 4.14.0+18bbcdbd5bd13b4565c32d72e09502b7ca6c71d4. GlobalAssemblyCache: False
+2021-12-03 10:34:38.3460 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll succeeded!
+2021-12-03 10:34:38.3617 Info Message Template Auto Format enabled
+2021-12-03 10:34:38.3617 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 10:34:38.4026 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 10:34:38.4163 Info Adding target FileTarget(Name=Warning)
+2021-12-03 10:34:38.4163 Info Adding target FileTarget(Name=Information)
+2021-12-03 10:34:38.4420 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 10:34:40.1955 Info AppDomain Shutting down. Logger closing...
+2021-12-03 10:34:40.2121 Info Logger has been shut down.
+2021-12-03 10:34:48.2422 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-12-03 10:34:48.2422 Info Loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2021-12-03 10:34:48.2422 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2021-12-03 10:34:48.2520 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Extensions.Logging.dll succeeded!
+2021-12-03 10:34:48.2520 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+2021-12-03 10:34:48.2520 Info Loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+2021-12-03 10:34:48.2520 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.14.0.2042. Product version: 4.14.0+18bbcdbd5bd13b4565c32d72e09502b7ca6c71d4. GlobalAssemblyCache: False
+2021-12-03 10:34:48.2520 Info Auto loading assembly file: D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\NLog.Web.AspNetCore.dll succeeded!
+2021-12-03 10:34:48.2520 Info Message Template Auto Format enabled
+2021-12-03 10:34:48.2520 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 10:34:48.2943 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 10:34:48.3103 Info Adding target FileTarget(Name=Warning)
+2021-12-03 10:34:48.3103 Info Adding target FileTarget(Name=Information)
+2021-12-03 10:34:48.3286 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 10:34:50.6224 Info AppDomain Shutting down. Logger closing...
+2021-12-03 10:34:50.6441 Info Logger has been shut down.
+2021-12-03 10:35:02.3632 Info Message Template Auto Format enabled
+2021-12-03 10:35:02.3841 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 10:35:02.4471 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 10:35:02.4681 Info Adding target FileTarget(Name=Warning)
+2021-12-03 10:35:02.4681 Info Adding target FileTarget(Name=Information)
+2021-12-03 10:35:02.5304 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 10:35:03.2863 Info Configuring from an XML element in D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config...
+2021-12-03 10:35:03.2863 Info Message Template Auto Format enabled
+2021-12-03 10:35:03.2863 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 10:35:03.2863 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 10:35:03.2863 Info Adding target FileTarget(Name=Warning)
+2021-12-03 10:35:03.2863 Info Adding target FileTarget(Name=Information)
+2021-12-03 10:35:03.2863 Info Closing old configuration.
+2021-12-03 10:35:03.3863 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 10:39:00.7076 Info Message Template Auto Format enabled
+2021-12-03 10:39:00.7302 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 10:39:00.8111 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 10:39:00.8302 Info Adding target FileTarget(Name=Warning)
+2021-12-03 10:39:00.8307 Info Adding target FileTarget(Name=Information)
+2021-12-03 10:39:00.8858 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 10:39:01.5925 Info Configuring from an XML element in D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config...
+2021-12-03 10:39:01.5925 Info Message Template Auto Format enabled
+2021-12-03 10:39:01.5993 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 10:39:01.5993 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 10:39:01.5993 Info Adding target FileTarget(Name=Warning)
+2021-12-03 10:39:01.5993 Info Adding target FileTarget(Name=Information)
+2021-12-03 10:39:01.5993 Info Closing old configuration.
+2021-12-03 10:39:01.6894 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 10:43:09.3517 Info Message Template Auto Format enabled
+2021-12-03 10:43:09.3734 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 10:43:09.4484 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 10:43:09.4742 Info Adding target FileTarget(Name=Warning)
+2021-12-03 10:43:09.4742 Info Adding target FileTarget(Name=Information)
+2021-12-03 10:43:09.5334 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 10:43:10.2835 Info Configuring from an XML element in D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config...
+2021-12-03 10:43:10.2835 Info Message Template Auto Format enabled
+2021-12-03 10:43:10.2835 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 10:43:10.2835 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 10:43:10.2835 Info Adding target FileTarget(Name=Warning)
+2021-12-03 10:43:10.2835 Info Adding target FileTarget(Name=Information)
+2021-12-03 10:43:10.2835 Info Closing old configuration.
+2021-12-03 10:43:10.3583 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 10:45:40.3253 Info Message Template Auto Format enabled
+2021-12-03 10:45:40.3468 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 10:45:40.4166 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 10:45:40.4384 Info Adding target FileTarget(Name=Warning)
+2021-12-03 10:45:40.4384 Info Adding target FileTarget(Name=Information)
+2021-12-03 10:45:40.5011 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 10:45:41.2576 Info Configuring from an XML element in D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config...
+2021-12-03 10:45:41.2576 Info Message Template Auto Format enabled
+2021-12-03 10:45:41.2576 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 10:45:41.2576 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 10:45:41.2576 Info Adding target FileTarget(Name=Warning)
+2021-12-03 10:45:41.2576 Info Adding target FileTarget(Name=Information)
+2021-12-03 10:45:41.2576 Info Closing old configuration.
+2021-12-03 10:45:41.3298 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 10:48:35.0604 Info Message Template Auto Format enabled
+2021-12-03 10:48:35.0812 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 10:48:35.1500 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 10:48:35.1734 Info Adding target FileTarget(Name=Warning)
+2021-12-03 10:48:35.1738 Info Adding target FileTarget(Name=Information)
+2021-12-03 10:48:35.2341 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 10:48:35.9942 Info Configuring from an XML element in D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config...
+2021-12-03 10:48:35.9942 Info Message Template Auto Format enabled
+2021-12-03 10:48:35.9942 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 10:48:36.0026 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 10:48:36.0026 Info Adding target FileTarget(Name=Warning)
+2021-12-03 10:48:36.0026 Info Adding target FileTarget(Name=Information)
+2021-12-03 10:48:36.0026 Info Closing old configuration.
+2021-12-03 10:48:36.0685 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:04:29.6140 Info Message Template Auto Format enabled
+2021-12-03 11:04:29.6411 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:04:29.7181 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:04:29.7362 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:04:29.7369 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:04:29.7949 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:04:30.5971 Info Configuring from an XML element in D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config...
+2021-12-03 11:04:30.5971 Info Message Template Auto Format enabled
+2021-12-03 11:04:30.5971 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:04:30.5971 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:04:30.5971 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:04:30.5971 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:04:30.5971 Info Closing old configuration.
+2021-12-03 11:04:30.6771 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:05:04.1863 Info Message Template Auto Format enabled
+2021-12-03 11:05:04.2049 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:05:04.2692 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:05:04.2902 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:05:04.2902 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:05:04.3449 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:05:05.1137 Info Configuring from an XML element in D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config...
+2021-12-03 11:05:05.1137 Info Message Template Auto Format enabled
+2021-12-03 11:05:05.1137 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:05:05.1137 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:05:05.1137 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:05:05.1137 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:05:05.1137 Info Closing old configuration.
+2021-12-03 11:05:05.1879 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:09:53.2811 Info Message Template Auto Format enabled
+2021-12-03 11:09:53.3070 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:09:53.3897 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:09:53.4124 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:09:53.4124 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:09:53.4683 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:09:54.2425 Info Configuring from an XML element in D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config...
+2021-12-03 11:09:54.2425 Info Message Template Auto Format enabled
+2021-12-03 11:09:54.2425 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:09:54.2522 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:09:54.2522 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:09:54.2522 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:09:54.2522 Info Closing old configuration.
+2021-12-03 11:09:54.3278 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:12:44.4827 Info Message Template Auto Format enabled
+2021-12-03 11:12:44.5024 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:12:44.5778 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:12:44.5967 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:12:44.5967 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:12:44.6579 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:12:45.4412 Info Configuring from an XML element in D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config...
+2021-12-03 11:12:45.4412 Info Message Template Auto Format enabled
+2021-12-03 11:12:45.4412 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:12:45.4412 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:12:45.4412 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:12:45.4412 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:12:45.4412 Info Closing old configuration.
+2021-12-03 11:12:45.5257 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:14:42.8938 Info Message Template Auto Format enabled
+2021-12-03 11:14:42.9151 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:14:42.9793 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:14:42.9989 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:14:42.9989 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:14:43.0501 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:14:43.8533 Info Configuring from an XML element in D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config...
+2021-12-03 11:14:43.8533 Info Message Template Auto Format enabled
+2021-12-03 11:14:43.8533 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:14:43.8533 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:14:43.8533 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:14:43.8533 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:14:43.8533 Info Closing old configuration.
+2021-12-03 11:14:43.9176 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:27:01.9443 Info Message Template Auto Format enabled
+2021-12-03 11:27:01.9694 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:27:02.0377 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:27:02.0585 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:27:02.0585 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:27:02.1190 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:27:02.9440 Info Configuring from an XML element in D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config...
+2021-12-03 11:27:02.9440 Info Message Template Auto Format enabled
+2021-12-03 11:27:02.9440 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:27:02.9440 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:27:02.9440 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:27:02.9440 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:27:02.9440 Info Closing old configuration.
+2021-12-03 11:27:03.0511 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:33:28.3294 Info Message Template Auto Format enabled
+2021-12-03 11:33:28.3408 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:33:28.3747 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:33:28.3862 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:33:28.3862 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:33:28.4298 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:33:28.8592 Info Configuring from an XML element in D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config...
+2021-12-03 11:33:28.8592 Info Message Template Auto Format enabled
+2021-12-03 11:33:28.8630 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:33:28.8630 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:33:28.8630 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:33:28.8630 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:33:28.8630 Info Closing old configuration.
+2021-12-03 11:33:28.8933 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:34:15.5056 Info Message Template Auto Format enabled
+2021-12-03 11:34:15.5218 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:34:15.5624 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:34:15.5743 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:34:15.5743 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:34:15.6130 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:34:16.0461 Info Configuring from an XML element in D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config...
+2021-12-03 11:34:16.0461 Info Message Template Auto Format enabled
+2021-12-03 11:34:16.0461 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:34:16.0461 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:34:16.0461 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:34:16.0461 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:34:16.0461 Info Closing old configuration.
+2021-12-03 11:34:16.0793 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:40:20.5922 Info Message Template Auto Format enabled
+2021-12-03 11:40:20.6023 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:40:20.6411 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:40:20.6507 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:40:20.6507 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:40:20.6799 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:40:21.1015 Info Configuring from an XML element in D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config...
+2021-12-03 11:40:21.1015 Info Message Template Auto Format enabled
+2021-12-03 11:40:21.1015 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:40:21.1015 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:40:21.1015 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:40:21.1015 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:40:21.1015 Info Closing old configuration.
+2021-12-03 11:40:21.1394 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:45:30.4481 Info Message Template Auto Format enabled
+2021-12-03 11:45:30.4606 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:45:30.4973 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:45:30.5073 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:45:30.5073 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:45:30.5495 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config
+2021-12-03 11:45:30.9711 Info Configuring from an XML element in D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config...
+2021-12-03 11:45:30.9711 Info Message Template Auto Format enabled
+2021-12-03 11:45:30.9711 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-03 11:45:30.9711 Info Adding target FileTarget(Name=Tracing)
+2021-12-03 11:45:30.9711 Info Adding target FileTarget(Name=Warning)
+2021-12-03 11:45:30.9711 Info Adding target FileTarget(Name=Information)
+2021-12-03 11:45:30.9711 Info Closing old configuration.
+2021-12-03 11:45:31.0130 Info Validating config: TargetNames=Tracing, Warning, Information, ConfigItems=38, FilePath=D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\nlog.config

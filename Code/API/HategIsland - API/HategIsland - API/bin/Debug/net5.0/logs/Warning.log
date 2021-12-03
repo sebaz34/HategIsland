@@ -1,0 +1,2 @@
+2021-12-03 11:40:36.4174 || WARN || Microsoft.EntityFrameworkCore.Model.Validation || Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. || 
+2021-12-03 11:45:33.7974 || WARN || Microsoft.EntityFrameworkCore.Model.Validation || Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. || 

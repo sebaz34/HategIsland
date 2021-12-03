@@ -1,12 +1,12 @@
 ﻿using HategIsland___API.Models;
 using HategIsland___API.Tools;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace HategIsland___API.Controllers
 {
@@ -24,13 +24,12 @@ namespace HategIsland___API.Controllers
             _logger = logger;
         }
 
-        //TODO: Apply Authentication to Entire Controller
-
         /// <summary>
         /// Retrives a single location from the database matching LocationID.
         /// </summary>
         /// <param name="LocationID"></param>
         /// <returns>Location</returns>
+        [Authorize]
         [HttpGet("{LocationID}")]
         public ActionResult GetLocationDetails(int LocationID)
         {
@@ -51,6 +50,7 @@ namespace HategIsland___API.Controllers
         /// </summary>
         /// <param name="PlayerID"></param>
         /// <returns>IEnumerable of type Location</returns>
+        [Authorize]
         [HttpGet("AvailableLocations/{PlayerID}")]
         public IEnumerable<Location> GetAvailableLocations(int PlayerID)
         {
@@ -81,6 +81,7 @@ namespace HategIsland___API.Controllers
         /// Obtains a list of all locations.
         /// </summary>
         /// <returns>IEnumerable of type Location</returns>
+        [Authorize]
         [HttpGet]
         public IEnumerable<Location> GetAllLocations()
         {
@@ -101,6 +102,7 @@ namespace HategIsland___API.Controllers
         /// <param name="PlayerID"></param>
         /// <param name="LocationID"></param>
         /// <returns>None</returns>
+        [Authorize]
         [HttpPost("UnlockLocation/{PlayerID}/{LocationID}")]
         public ActionResult UnlockNewLocation(int PlayerID, int LocationID)
         {
@@ -131,6 +133,7 @@ namespace HategIsland___API.Controllers
         /// <param name="DinosaurID"></param>
         /// <param name="LocationID"></param>
         /// <returns>None</returns>
+        [Authorize]
         [HttpPost("Visit/New/{PlayerID}/{DinosaurID}/{LocationID}")]
         public ActionResult NewLocationVisit(int PlayerID, int DinosaurID, int LocationID)
         {
@@ -185,6 +188,7 @@ namespace HategIsland___API.Controllers
         /// </summary>
         /// <param name="LocationVisitID"></param>
         /// <returns>LocationVisit</returns>
+        [Authorize]
         [HttpGet("Visit/{LocationVisitID}")]
         public ActionResult GetSingleLocationVisit(int LocationVisitID)
         {
@@ -204,6 +208,7 @@ namespace HategIsland___API.Controllers
         /// </summary>
         /// <param name="PlayerID"></param>
         /// <returns>IEnumerable of type LocationVisit</returns>
+        [Authorize]
         [HttpGet("Visit/{PlayerID}")]
         public IEnumerable<LocationVisit> GetAllPlayerLocationVisit(int PlayerID)
         {
@@ -217,14 +222,13 @@ namespace HategIsland___API.Controllers
                 throw;
             }
         }
-        
-        //TODO: Apply Authorisation
 
         /// <summary>
         /// Deletes a locationvisit entry from the DB.
         /// </summary>
         /// <param name="LocationVisitID"></param>
         /// <returns>None</returns>
+        [Authorize(Roles = "Admin")]
         [HttpDelete("Visit/{LocationVisitID}")]
         public ActionResult DeleteLocationVisit(int LocationVisitID)
         {

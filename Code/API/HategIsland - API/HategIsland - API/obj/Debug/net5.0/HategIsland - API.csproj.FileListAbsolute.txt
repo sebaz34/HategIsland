@@ -95,3 +95,5 @@ D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net
 D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\ref\HategIsland - API.dll
 D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\HategIsland - API.pdb
 D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\obj\Debug\net5.0\HategIsland - API.genruntimeconfig.cache
+D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\BCrypt.Net-Core.dll
+D:\GitHub\HategIsland\Code\API\HategIsland - API\HategIsland - API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
